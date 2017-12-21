@@ -295,13 +295,16 @@ def enroll(name, gender, age=6, city="Beijing"):
     print("city:", city)
 print(enroll("Jack", "Female"))
 
-# 可变参数
-
 #XuDong_2017年12月19日
 
-
-#xiaoqi
-345
-123
+# 20171221
+# 可变参数
+# 给定一组数字a，b，c……，请计算  a2+b2+c2+……(平方）
+def calc([1,2,3]):
+    sum = 0
+    for n in [1,2,3]:
+        sum = sum + n * n
+    return sum
+print(sum)
 
 
